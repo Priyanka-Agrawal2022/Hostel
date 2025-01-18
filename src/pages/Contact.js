@@ -18,7 +18,7 @@ export default function Contact() {
             ></iframe>
           </div>
           <div className={styles.right}>
-            <h3>
+            <h3 className={styles.subHeading}>
               <strong>Asha Homes Luxury Girls Hostel</strong>
             </h3>
 
@@ -39,6 +39,14 @@ export default function Contact() {
             <a href="mailTo: ashahomeshostel@gmail.com">
               <span class="material-symbols-outlined">mail</span>
               <span>ashahomeshostel@gmail.com</span>
+            </a>
+
+            <a
+              href="https://api.whatsapp.com/send?phone=918447479080"
+              target="_blank"
+            >
+              <i class="fa fa-whatsapp" style={{fontSize: '24px'}}></i>
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
         </div>

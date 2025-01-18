@@ -52,6 +52,11 @@ a {
     font-size: 35px;
   }
 
+  .subHeading {
+    font-size: 28px;
+    text-align: center;
+  }
+
   .mainDiv {
     flex-direction: column;
     gap: 20px;
