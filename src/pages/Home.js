@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css";
-import { reviews } from "../data";
+import { reviews, amenities } from "../data";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -19,6 +19,20 @@ export default function Home() {
             alt="image"
           />
         </div>
+      </div>
+
+      <div className={styles.amenitiesDiv}>
+        <h2 className={styles.amenitiesHeading}>Amenities</h2>
+        <h3 className={styles.reviewsSubHeading}>Our Awesome Services</h3>
+
+        <ul className={styles.amenitiesContainer}>
+          {amenities.map((amt, i) => (
+            <li key={i}>
+              <span class="material-symbols-outlined">arrow_circle_right</span>
+              <span>{amt}</span>
+            </li>
+          ))}
+        </ul>
       </div>
 
       <div className={styles.reviewsDiv}>
