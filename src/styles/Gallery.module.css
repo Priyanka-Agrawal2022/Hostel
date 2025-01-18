@@ -1,0 +1,38 @@
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.galleryDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px;
+}
+
+.galleryDiv img {
+  flex: 0 0 25%;
+  width: 25%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+
+  .galleryDiv {
+    padding: 20px;
+  }
+
+  .galleryDiv img {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+}
