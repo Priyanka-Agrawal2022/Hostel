@@ -6,11 +6,12 @@ export default function Navbar() {
     <>
       <nav className={styles.nav}>
         <div className={styles.logoDiv}>
-          <Link to="">Asha Homes Luxury Girls Hostel</Link>
+          <Link to="/Hostel">Asha Homes Luxury Girls Hostel</Link>
         </div>
         <div className={styles.linksDiv}>
           <NavLink
-            to=""
+            to="/Hostel"
+            end
             className={({ isActive }) => (isActive ? styles.activeLink : "")}
           >
             Home
