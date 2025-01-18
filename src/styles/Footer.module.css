@@ -1,0 +1,84 @@
+.footer {
+  background-image: url("https://queenspg.com/assets/images/fobg.png");
+  background-size: cover;
+}
+
+.containerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 100px 50px 0;
+}
+
+.logoDiv {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  background-color: #bf082b;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.logoDiv a {
+  color: #1c2666;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.socialLinks {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socialLinks a img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.copyrightDiv {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.copyrightDiv p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .containerDiv {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 10px 0;
+  }
+
+  .logoDiv {
+    width: 50%;
+    padding: 10px 0;
+  }
+
+  .logoDiv a {
+    font-size: 16px;
+  }
+
+  .socialLinks {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .socialLinks a img {
+    width: 30px;
+  }
+
+  .copyrightDiv p {
+    font-size: 14px;
+  }
+}

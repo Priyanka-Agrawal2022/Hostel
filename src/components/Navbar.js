@@ -1,5 +1,6 @@
 import styles from "../styles/Navbar.module.css";
 import { Link, NavLink, Outlet } from "react-router-dom";
+import Footer from "./Footer";
 
 export default function Navbar() {
   return (
@@ -31,6 +32,7 @@ export default function Navbar() {
         </div>
       </nav>
       <Outlet />
+      <Footer />
     </>
   );
 }
