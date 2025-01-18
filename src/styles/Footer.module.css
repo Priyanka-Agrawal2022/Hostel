@@ -57,16 +57,16 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 20px 10px 0;
+    padding: 30px 10px 0;
   }
 
   .logoDiv {
     width: 50%;
-    padding: 10px 0;
+    padding: 12px 0;
   }
 
   .logoDiv a {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .socialLinks {
