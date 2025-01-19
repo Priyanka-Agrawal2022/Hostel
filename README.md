@@ -16,7 +16,7 @@ A Hostel website built using React.js.
 - Clicking on phone icon on Contact page calls hostel owner
 - Clicking on email icon on Contact page opens up an email box to email hostel owner
 - Clicking on location icon on Contact page opens Google maps location of hostel in new tab
-- Clicking on facebook & instagram icon on Footer opens hostel's facebook and instagram pages in new ta
+- Clicking on facebook & instagram icon on Footer opens hostel's facebook and instagram pages in new tab
 
 ### Tech Stack
 - React.js, React Router DOM, JSX, CSS, JavaScript
