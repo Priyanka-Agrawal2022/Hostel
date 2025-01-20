@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Hostel/static/css/main.43c137d8.css",
-    "main.js": "/Hostel/static/js/main.45b7cad8.js",
+    "main.js": "/Hostel/static/js/main.fb9bdf37.js",
     "index.html": "/Hostel/index.html",
     "main.43c137d8.css.map": "/Hostel/static/css/main.43c137d8.css.map",
-    "main.45b7cad8.js.map": "/Hostel/static/js/main.45b7cad8.js.map"
+    "main.fb9bdf37.js.map": "/Hostel/static/js/main.fb9bdf37.js.map"
   },
   "entrypoints": [
     "static/css/main.43c137d8.css",
-    "static/js/main.45b7cad8.js"
+    "static/js/main.fb9bdf37.js"
   ]
 }
